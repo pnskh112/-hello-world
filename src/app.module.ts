@@ -5,3 +5,5 @@ import { LocationModule } from './location/location.module';
   imports: [LocationModule],
 })
 export class AppModule {}
+
+const x ={} as AppModule;

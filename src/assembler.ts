@@ -3,6 +3,6 @@ import {AppController} from './app.controller';
 
 const appService = new AppService();
 const appController = new AppController(appService);
-const hello = appController.getHello();
+//const hello = appController.getHello();
 
-console.log(hello);
+//console.log(hello);

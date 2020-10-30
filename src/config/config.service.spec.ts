@@ -10,7 +10,7 @@ describe('ConfigService', () => {
   });
 
   it('should ndicate vies location', () => {
-    const templatePath = resolve(__dirname, '../..', 'vies');
+    const templatePath = resolve(__dirname, '../..', 'views');
     expect(service.get<string>('templates.path')).toEqual(templatePath);
   });
 });

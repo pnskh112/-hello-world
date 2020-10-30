@@ -1,10 +1,10 @@
-import { resolve } from "path";
+import { resolve } from 'path';
 
 export default {
   templates:{
-    path: resolve(__dirname, '..','views'),
+    path: '/home/vagrant/myprojects/nice-locations/views'
   },
   public: {
-    path: resolve(__dirname, '..', 'public'),
+    path: '/home/vagrant/myprojects/nice-locations/public'
   },
 }

@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { LocationController } from './location.controller';
+import { LocationController } from '/home/vagrant/myprojects/nice-locations/src/location/location.controller';
 
 describe('LocationController', () => {
   let locationController: LocationController;
@@ -14,13 +14,13 @@ describe('LocationController', () => {
 
   describe('root', () => {
     it('should return "Hello World!"', () => {
-      expect(locationController.listLocations()).toMatchObject({
+      expect(LocationController.listLocations().objectContaining({
         locations: [
           'Location 1',
           'Location 2',
           'Location 3',
-        ],
-      });
+        ]
+      }));
     });
   });
 });

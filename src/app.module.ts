@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { ConfigModule } from './config/config.module';
 import { LocationModule } from '/home/vagrant/myprojects/nice-locations/src/location/location.module';
+import { ConfigModule } from '/home/vagrant/myprojects/nice-locations/src/config/config.module';
 import { DatabaseModule } from './database/database.module';
 
 @Module({

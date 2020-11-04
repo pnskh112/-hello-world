@@ -7,8 +7,8 @@ export class MappingRegistryService {
   private readonly mappingServices: MappingService[] = [];
 
   public registerMappingService(mappingServices: MappingService){
-    this.mappingServices.push(mappingService);
-    mappingService.addMapping();
+    this.mappingServices.push(mappingServices);
+    mappingServices.addMapping();
   }
  
   public map<T>(source: string, target: string, object: any): T {

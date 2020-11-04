@@ -1,5 +1,5 @@
 import { LocationDto } from './location.dto';
 
-exportinterface LocationListDto {
+export interface LocationListDto {
   locations: LocationDto[];
 }

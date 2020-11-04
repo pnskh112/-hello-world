@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { MappingRegistryService } from './mapping-registry.service';
+import { MappingRegistryService } from '/home/vagrant/myprojects/nice-locations/src/common/mapping.registry.service';
 
 @Module({
-  prividers: [MappingRegistryService],
+  providers: [MappingRegistryService],
   exports: [MappingRegistryService],
 })
 export class CommonModule {}

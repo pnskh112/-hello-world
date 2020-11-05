@@ -1,7 +1,7 @@
 import { Controller, Get, Render } from '@nestjs/common';
 import { LocationService } from '/home/vagrant/myprojects/nice-locations/src/location/location.service';
 import { LocationListDto } from '/home/vagrant/myprojects/nice-locations/src/location/location-list.dto';
-import { MappingRegistryService } from '/home/vagrant/myprojects/nice-locations/src/common/mapping.registry.service';
+import { MappingRegistryService } from '/home/vagrant/myprojects/nice-locations/src/common/mapping-registry.service';
 import { LocationDto } from './location.dto';
 import { Location } from './location.entity';
 

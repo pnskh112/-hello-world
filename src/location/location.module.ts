@@ -6,7 +6,6 @@ import { Location } from '/home/vagrant/myprojects/nice-locations/src/location/l
 import { CommonModule } from '/home/vagrant/myprojects/nice-locations/src/common/common.module';
 import { LocationMappingService } from '/home/vagrant/myprojects/nice-locations/src/location/location-mapping.service';
 
-
 @Module({
   controllers: [
     LocationController,

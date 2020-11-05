@@ -758,6 +758,34 @@
   dependencies:
     uuid "8.3.0"
 
+"@nger/core@^1.9.70":
+  version "1.9.70"
+  resolved "https://registry.yarnpkg.com/@nger/core/-/core-1.9.70.tgz#27c742a7ae552255a0b362e9f7079ec7a97710ad"
+  integrity sha512-4dIVKjJ6/3kJXakzSAQLu4Bkh34oIrTnj2m28xRQ8dwgNjIiiS2AuxHzBSugXiPelk9+SBP4OgR2YlsW4H3Q6w==
+  dependencies:
+    "@nger/di" "^1.5.58"
+    "@nger/plain" "^1.1.11"
+    rxjs "^6.5.3"
+
+"@nger/decorator@^1.1.14":
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/@nger/decorator/-/decorator-1.1.14.tgz#cfb69d7a46f61a7ff6012f25673eea1c61289410"
+  integrity sha512-OESnd6Ra3NgqAV1P0Ge3ONq9c3oPpsHe3BZUk6ppz5rud1wPu2VOY/dwwGtec219F90wW86xDWLlpaAWgdS/pg==
+  dependencies:
+    reflect-metadata "^0.1.13"
+
+"@nger/di@^1.5.58":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@nger/di/-/di-1.6.0.tgz#8a1d1cce21fb3740328569b7bd9ce4cbab11fb01"
+  integrity sha512-cSOBYRGlewWtXU8vVaOFli5iy5mkwmQpfxEUF2PPCa5ZV1cc6gPSVYxmMUftj2NYTDnPSBjOi0ZjSS33n3wrLw==
+
+"@nger/plain@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@nger/plain/-/plain-1.1.11.tgz#2736c82911b05f01071b019d39abbb05104009eb"
+  integrity sha512-o1zt8/0f8Xfr8BFdSDln/6ZgyV24z6cKrbDmShVo21tnDTe30D0pFRGsM/aIqiMF6YvhonWzWdHw+R0iYxsNCg==
+  dependencies:
+    "@nger/decorator" "^1.1.14"
+
 "@nuxtjs/opencollective@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/opencollective/-/opencollective-0.2.2.tgz#26a761ebf588cc92a422d7cee996a66bd6e2761e"
@@ -1625,6 +1653,11 @@ atomic-sleep@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/atomic-sleep/-/atomic-sleep-1.0.0.tgz#eb85b77a601fc932cfe432c5acd364a9e2c9075b"
   integrity sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==
+
+automapper-ts@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/automapper-ts/-/automapper-ts-1.9.0.tgz#2daabf675327a21cf71339ace2cf2b933faf24e6"
+  integrity sha512-GVk0lYG2vZEMnor6kknwdW0nfWv9TW2/PfNWlHsGVXHkCYGTzzG27AuVwPcOzoPfgEU0AHMCB+4K7iKd33i8ZQ==
 
 avvio@^7.1.2:
   version "7.2.0"
@@ -8744,10 +8777,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeorm@^0.2.28:
-  version "0.2.28"
-  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.28.tgz#828df288d01ca75b38e990fa1628a7cd5a29f39f"
-  integrity sha512-BTtUBGwsFzODvHY+AlWL9pvJ2uEj8qpHwmo03z43RvZkG8BAryQJQ3lZ7HlGvI9IQU8y1IYGWe97HsVr8kXB9g==
+typeorm@^0.2.29:
+  version "0.2.29"
+  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.29.tgz#401289dc91900d72eccb26e31cdb7f0591a2272e"
+  integrity sha512-ih1vrTe3gEAGKRcWlcsTRxTL7gNjacQE498wVGuJ3ZRujtMqPZlbAWuC7xDzWCRjQnkZYNwZQeG9UgKfxSHB5g==
   dependencies:
     "@sqltools/formatter" "1.2.2"
     app-root-path "^3.0.0"

@@ -5,6 +5,7 @@ import { MappingRegistryService } from '/home/vagrant/myprojects/nice-locations/
 import { MockHelper } from '/home/vagrant/myprojects/nice-locations/src/common/mock.helper';
 import { GenericFactory } from '/home/vagrant/myprojects/nice-locations/src/common/generic.factory';
 import { LocationMappingService } from '/home/vagrant/myprojects/nice-locations/src/location/location-mapping.service';
+import { Location } from '/home/vagrant/myprojects/nice-locations/src/location/location.entity';
 
 
 describe('LocationController', () => {
@@ -13,7 +14,7 @@ describe('LocationController', () => {
   let mappingRegistryService: MappingRegistryService;
 
   beforeEach(async () => {
-    mockLocationService = MockHelper.mock<LocationService>{
+    mockLocationService = MockHelper.mock<LocationService>({
      list: {
        resolves: [
          GenericFactory.create<Location>(Location, {

@@ -3,7 +3,7 @@ import { LocationService } from '/home/vagrant/myprojects/nice-locations/src/loc
 import { LocationListDto } from '/home/vagrant/myprojects/nice-locations/src/location/location-list.dto';
 import { MappingRegistryService } from '/home/vagrant/myprojects/nice-locations/src/common/mapping-registry.service';
 import { LocationDto } from './location.dto';
-import { Location } from './location.entity';
+import { Location } from '/home/vagrant/myprojects/nice-locations/src/location/location.entity';
 
 @Controller()
 export class LocationController {
